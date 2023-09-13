@@ -141,6 +141,7 @@ body {
   margin-bottom: 4rem;
   color: aliceblue;
 }
+/* My Services */
 #services {
   font-size: 20px;
   line-height: 1.4;
@@ -203,4 +204,22 @@ body {
   font-weight: 600;
   background: #0ef;
   color: #081b29;
+}
+/* My skill */
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container1 {
+  width: 600px;
+  height: 500px;
+  padding: 75px 90px;
+  margin-left: 120px;
+}
+.heading1 {
+  text-align: center;
+  text-decoration: none;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
+  margin-bottom: 50px;
 }
