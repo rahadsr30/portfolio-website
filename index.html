@@ -27,7 +27,7 @@
       <div class="home-content">
         <h3>Hello, It's Me</h3>
         <h1>Rahad Ahmed</h1>
-        <h3>And I'm a <span class="text"></span></h3>
+        <h3>And I'm a <span id="element""></span></h3>
         <p>
           I'm Rahad, a passionate Full-stack Developer and UI/UX Designer.
           <br />
@@ -62,6 +62,15 @@
         />
       </div>
     </section>
-    <script src="main.js"></script>
+    <script>
+      let typed = new Typed("#element", {
+        strings: ["Fontent Developer", "Web Developer", "Designer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backdelay: 1000,
+        loop: true,
+      });
+    </script>
+    <script src="/main.js"></script>
   </body>
 </html>
