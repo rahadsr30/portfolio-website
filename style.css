@@ -569,3 +569,59 @@ footer p {
   font-size: 25px;
   font-weight: 500;
 }
+@media screen and (max-width: 668px) {
+  .header {
+    flex-direction: column;
+    justify-content: flex-start;
+    background: none;
+    align-items: start;
+    padding: 10px;
+  }
+  .services {
+    flex-direction: column;
+  }
+  .container1,
+  .portfolio,
+  .portfolio-content {
+    flex-direction: column;
+  }
+  .home {
+    padding: 70px 10px;
+  }
+  .navbar a {
+    margin-left: 0;
+    font-size: 17px;
+  }
+  .container1,
+  .portfolio-content {
+    padding: 0;
+    margin: 0;
+  }
+  .row img {
+    width: 100%;
+    height: auto;
+  }
+  .about,
+  .contact,
+  .services-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services-list {
+    width: 100%;
+  }
+  h1 {
+    font-size: 40px !important;
+  }
+  p {
+    font-size: 10px !important;
+  }
+  .my-pic img,
+  .about-img img {
+    width: 100%;
+  }
+  .about-text,
+  .container1,
+  .portfolio-content {
+    padding: 10px;
+  }
+}
